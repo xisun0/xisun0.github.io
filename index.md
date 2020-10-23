@@ -5,7 +5,7 @@
       <p><b>PhD candidate in finance</b></p>
       <p><b>Renmin University of China </b></p>
       <p><b>email: xi.sun@ruc.edu.cn</b></p>
-      <p><b><a href="https://www.jianguoyun.com/p/DThcYa0Q4cH0CBiKwccD">CV</b></p>
+      <p><b> <a href="https://www.jianguoyun.com/p/DThcYa0Q4cH0CBiKwccD">CV</a> </b></p>
       <p><b></b></p>
     </td>
     <td width="25%">
