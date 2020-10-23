@@ -24,7 +24,7 @@
 -  贾盾，孙溪和郭瑞, **货币政策公告、政策不确定性及股票市场的预公告溢价效应——来自中国市场的证据**, 金融研究, 2019, 469(7): 76-95 [链接](http://www.jryj.org.cn/CN/Y2019/V469/I7/76) 
 
 ### 工作论文
-- **Attention, Uncertainty Reduction and Pre-announcement Premium in China** (with Dun Jia and Rui Guo) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3114038)] 
-- **Hold-up Problem with the Government: Evidence from China** (with Jiaoliang Jiang and Chanyun Wang) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423523)]  
+- **Attention, Uncertainty Reduction and Pre-announcement Premium in China** (with [Dun Jia](http://www.hanqing.ruc.edu.cn/teacher_jsw.php?id=69) and [Rui Guo](http://www.hanqing.ruc.edu.cn/teacher_js.php?id=65)) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3114038)] 
+- **Hold-up Problem with the Government: Evidence from China** (with Jiaoliang Jiang and [Chanyun Wang](http://www.hanqing.ruc.edu.cn/teacher_js.php?id=32)) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423523)]  
 - **Digesting Anomalies under t-distribution** (with Zhusheng Lou, Lingfeng Tao, and Qiaosen Zhang)
 
