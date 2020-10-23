@@ -11,6 +11,7 @@
     </td>
   </tr>
 </table>
+<a href="/index.html">English Version</a>
 
 ### 教育经历
 - 联合培养博士生 纽约大学 2019 - 2020  
