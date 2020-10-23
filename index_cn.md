@@ -11,7 +11,9 @@
     </td>
   </tr>
 </table>
-<a href="/index.html">English Version</a>
+
+### 研究兴趣
+中国经济 营商环境 金融市场
 
 ### 教育经历
 - 联合培养博士生 纽约大学 2019 - 2020  
@@ -23,4 +25,6 @@
 
 ### 工作论文
 - **Attention, Uncertainty Reduction and Pre-announcement Premium in China** (with Dun Jia and Rui Guo) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3114038)] 
+- **Hold-up Problem with the Government: Evidence from China** (with Jiaoliang Jiang and Chanyun Wang) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423523)]  
 - **Digesting Anomalies under t-distribution** (with Zhusheng Lou, Lingfeng Tao, and Qiaosen Zhang)
+
