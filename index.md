@@ -11,5 +11,5 @@
       <img src="/WWII.jpg" width="100%">   
     </td>
   </tr>
-  <a href="/index-en.html">英文版</a>
 </table>
+<a href="/index_CN.html">中文</a>
