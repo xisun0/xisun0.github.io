@@ -15,16 +15,16 @@
 </table>
 
 ## Research Interest
-China Economy, Institutional Evironment, Financial Market
+China Economy, Institutional Environment, Financial Market
 
 ## Education   
 - Ph.D. Finance, Renmin University of China, 2018 - current  
-- Visiting Scholar, Finance Department, Stern School of Businiess, New York University, 2019 - 2020 
+- Visiting Scholar, Finance Department, Stern School of Business, New York University, 2019 - 2020 
 - M.A. Finance, Renmin University of China, 2016 - 2019  
 - B.S. Investment, Central University of Finance and Economics, 2012 - 2016   
 
 ## Publications
-- Jia, Dun, Xi Sun and Rui Guo, **Monetary Announcements, Policy Uncertainty,and Equity Premium in China**, _Journal of Financial Research_, in Chinese, 2019, (7): 76-95
+- Jia, Dun, Xi Sun and Rui Guo, **Monetary Announcements, Policy Uncertainty, and Equity Premium in China**, _Journal of Financial Research_, in Chinese, 2019, (7): 76-95
 
 ## Working Papers
 - **Attention, Uncertainty Reduction and Pre-announcement Premium in China** (with [Dun Jia](https://jiadun.weebly.com/) and Rui Guo) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3114038)]  
