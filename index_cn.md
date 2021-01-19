@@ -25,6 +25,6 @@
 
 ### 工作论文
 - **Attention, Uncertainty Reduction and Pre-announcement Premium in China** (with [Dun Jia](http://www.hanqing.ruc.edu.cn/teacher_jsw.php?id=69) and [Rui Guo](http://www.hanqing.ruc.edu.cn/teacher_js.php?id=65)) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3114038)] 
-- **Hold-up Problem with the Government: Evidence from China** (with Jiaoliang Jiang and [Chanyun Wang](http://www.hanqing.ruc.edu.cn/teacher_js.php?id=32)) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423523)]  
-- **Digesting Anomalies under t-distribution** (with Zhusheng Lou, Lingfeng Tao, and Qiaosen Zhang)
+- **Hold-up Problem with the Government: Evidence from China** (with Jiaoliang Jiang and [Changyun Wang](http://www.hanqing.ruc.edu.cn/teacher_js.php?id=32)) [[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423523)]  
+- **Catfish In the Market: Effects of Aggressive Individual Investors** (with [Jiaxing Tian](https://www.lse.ac.uk/finance/people/phd-students/Tian))
 
