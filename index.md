@@ -5,7 +5,7 @@
       <p><b>PhD candidate in finance</b></p>
       <p><b>Renmin University of China </b></p>
       <p><b>email: xi.sun@ruc.edu.cn</b></p>
-      <p><b> <a href="https://www.jianguoyun.com/p/DThcYa0Q4cH0CBiKwccD">CV</a> </b></p>
+      <p><b> <a href="https://www.jianguoyun.com/p/DWiGTWAQ4cH0CBjKyNwD ">CV</a> </b></p>
       <p><b></b></p>
     </td>
     <td width="25%">
@@ -39,5 +39,5 @@ This paper studies the hold-up problem with the government, namely that the gove
 _coming soon_
 
 ## Working in Progress
-
+- Talk is Cheap? Policy Documents and its Effectiveness
 
