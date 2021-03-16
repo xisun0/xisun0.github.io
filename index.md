@@ -15,7 +15,7 @@
 </table>
 
 ## Research Interest
-China Economy, Institutional Environment, Financial Market
+Financial Market, Textual Analysis, China Economy, Corporate Finance
 
 ## Education   
 - Ph.D. Finance, Renmin University of China, 2018 - current  
@@ -37,6 +37,11 @@ This paper studies the hold-up problem with the government, namely that the gove
 
 - **Catfish In the Market: Effects of Aggressive Individual Investors**, with Jiaxing Tian (LSE)
 _coming soon_
+
+- **基于词向量的政策-股票匹配方法**
+
+- **政府可以引导投资者关注吗？—— 来自政策公告的证据**
+
 
 ## Working in Progress
 - Talk is Cheap? Policy Documents and its Effectiveness
