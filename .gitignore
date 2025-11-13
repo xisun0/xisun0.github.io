@@ -1,2 +1,16 @@
 CV/CV_XiSun_CN.synctex.gz
 CV/CV_XiSun_CN.log
+
+# Jekyll build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Vendor bundle
+vendor/
