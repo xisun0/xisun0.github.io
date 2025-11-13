@@ -1,0 +1,36 @@
+# Site navigation links
+# TODO: This file was borrowed from shirleyshu0503/shirleyshu0503.github.io
+# Source: https://github.com/shirleyshu0503/shirleyshu0503.github.io
+# 
+# Customize these navigation links for your site.
+# Each item should have a 'title' and 'url' field.
+# URLs can be relative (e.g., /about/) or absolute (e.g., https://example.com)
+
+main:
+  - title: "About"
+    url: /about/ # TODO: Create _pages/about.md for this page
+    
+  - title: "CV"
+    url: /cv/ # TODO: Create _pages/cv.md for this page
+    
+  - title: "Publications"
+    url: /publications/ # TODO: Create _pages/publications.md or use _publications collection
+    
+  - title: "Research"
+    url: /research/ # TODO: Create _pages/research.md for this page
+    
+  # TODO: Add more navigation items as needed
+  # Example formats:
+  #
+  # - title: "Blog"
+  #   url: /blog/
+  #
+  # - title: "Teaching"
+  #   url: /teaching/
+  #
+  # - title: "Contact"
+  #   url: /contact/
+  #
+  # External links:
+  # - title: "GitHub"
+  #   url: https://github.com/yourusername
