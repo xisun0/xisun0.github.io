@@ -1,0 +1,6 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#C0C0C0"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-size="35" fill="#666666">Project</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="35" fill="#666666">Placeholder</text>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" font-size="18" fill="#888888">TODO: Replace with your project image</text>
+</svg>

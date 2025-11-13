@@ -1,0 +1,127 @@
+name: Preview Branch Deployment
+
+# This workflow builds the Jekyll site from feature/borrow-shirley-layouts branch
+# and deploys the built static files to preview/feature/borrow-shirley-layouts branch
+# for preview purposes.
+#
+# IMPORTANT NOTES:
+# - This workflow does NOT modify your GitHub Pages settings
+# - The preview branch (preview/feature/borrow-shirley-layouts) is created/updated automatically
+# - To actually preview the site, you need to manually change GitHub Pages source in repository settings
+#   to point to the preview branch
+# - This allows you to review the built site before making it live
+# - Once you're satisfied, you can merge this feature branch to your main branch
+#   and update Pages settings accordingly
+
+on:
+  push:
+    branches:
+      - feature/borrow-shirley-layouts
+  pull_request:
+    branches:
+      - feature/borrow-shirley-layouts
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    # Set permissions for GITHUB_TOKEN to allow pushing to repository
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch full history for proper git operations
+          fetch-depth: 0
+      
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true # runs 'bundle install' and caches gems
+      
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build --destination _site
+        env:
+          JEKYLL_ENV: production
+      
+      - name: Prepare deployment
+        run: |
+          cd _site
+          # Create a .nojekyll file to prevent GitHub Pages from running Jekyll again
+          touch .nojekyll
+          # Create a README for the preview branch
+          cat > README.md << 'EOF'
+          # Preview Branch
+          
+          This branch contains the built static site files from the `feature/borrow-shirley-layouts` branch.
+          
+          **This is an automatically generated preview branch.**
+          
+          ## How to Preview
+          
+          To preview this site:
+          1. Go to your repository Settings → Pages
+          2. Under "Source", select the `preview/feature/borrow-shirley-layouts` branch
+          3. Select the root folder `/` or `/(root)`
+          4. Click Save
+          5. Wait a few minutes for GitHub Pages to deploy
+          6. Visit your GitHub Pages URL to see the preview
+          
+          ## Important Notes
+          
+          - This branch is automatically updated whenever you push to `feature/borrow-shirley-layouts`
+          - Do not manually edit files in this branch - they will be overwritten
+          - Remember to change your Pages source back to your main branch when done previewing
+          - This preview deployment does not affect your current live site unless you change Pages settings
+          
+          ## Reverting
+          
+          To revert to your original site:
+          1. Go to Settings → Pages
+          2. Change the Source back to your main/master branch (or gh-pages if that was your original)
+          3. Save the settings
+          
+          Your original site will be restored after GitHub Pages rebuilds (usually takes 1-2 minutes).
+          EOF
+      
+      - name: Deploy to preview branch
+        run: |
+          # Configure git
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Create or switch to preview branch
+          cd _site
+          git init
+          git checkout -b preview/feature/borrow-shirley-layouts
+          git add .
+          git commit -m "Deploy preview: $(date '+%Y-%m-%d %H:%M:%S')"
+          
+          # Force push to preview branch (overwrites previous preview)
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push -f origin preview/feature/borrow-shirley-layouts
+        
+      - name: Preview deployment summary
+        run: |
+          echo "✅ Preview deployment completed successfully!"
+          echo ""
+          echo "📋 Preview branch: preview/feature/borrow-shirley-layouts"
+          echo "🔗 Repository: ${{ github.repository }}"
+          echo ""
+          echo "To preview your site:"
+          echo "1. Go to: https://github.com/${{ github.repository }}/settings/pages"
+          echo "2. Change Source to branch: preview/feature/borrow-shirley-layouts"
+          echo "3. Set folder to: / (root)"
+          echo "4. Click Save and wait for deployment"
+          echo ""
+          echo "⚠️  Remember: This does not change your live site until you manually update Pages settings!"

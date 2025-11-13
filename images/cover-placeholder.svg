@@ -1,0 +1,6 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="#D0D0D0"/>
+  <text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-size="40" fill="#666666">Cover Image</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" font-size="40" fill="#666666">Placeholder</text>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" font-size="20" fill="#888888">TODO: Replace with your cover image</text>
+</svg>
