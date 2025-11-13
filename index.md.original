@@ -1,18 +1,18 @@
----
-layout: single
-author_profile: true
----
-
-<!-- 
-  TODO: This homepage has been updated to use the new layout system.
-  The original content is preserved below but can be customized.
-  Your bio, avatar, and social links are configured in _config.yml
-  The sidebar (author profile) will appear automatically with author_profile: true
--->
-
-# Welcome
-
-<!-- TODO: Update this welcome message with your own content -->
+<table>
+  <tr>
+    <td width="75%">
+      <h1>Xi Sun   </h1> 
+      <p><b>Research Associate</b></p>
+      <p><b>China Europe International Business School </b></p>
+      <p><b>email: sxi@ceibs.edu</b></p>
+      <p><b> <a href="https://www.jianguoyun.com/p/DX1hsS0QrNT9CRj3oIIFIAA ">CV</a> </b>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   <a href="/index_cn.html">中文页面</a> </p>
+      <p><b></b></p>
+    </td>
+    <td width="25%">
+      <img src="/头像.jpg" width="100%">   
+    </td>
+  </tr>
+</table>
 
 ## Research Interest
 Textual Analysis, China Economy, Asset Pricing
