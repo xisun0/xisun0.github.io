@@ -1,0 +1,39 @@
+---
+layout: compress
+---
+<!--
+  TODO: This is the main layout template for the site.
+  Most customization should be done in _config.yml and _includes/ files.
+  This template includes:
+  - head.html: Site metadata and styles
+  - masthead.html: Navigation bar
+  - footer.html: Footer content
+-->
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
