@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Research
+title: Research | Xi Sun
 description: Studying markets through text and data.
 permalink: /research/
 nav_key: research

@@ -1,10 +1,12 @@
 ---
 layout: default
-title: About
+title: About | Xi Sun
 description: A researcher shaped by finance and language.
 permalink: /about/
 nav_key: about
 ---
+
+Xi Sun / 孙溪
 
 ## Research Interests
 

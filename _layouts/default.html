@@ -2,10 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8">
+    <title>{{ page.title | default: site.title }}</title>
 
-{% seo %}
+ {% seo title=false %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -416,8 +422,9 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
+    {% assign page_heading = page.title | default: site.title | default: site.github.repository_name | split: ' | ' | first %}
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h1 class="project-name">{{ page_heading }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <nav class="site-nav" aria-label="Primary">
         <a href="/" class="{% if page.nav_key == 'home' %}is-active{% endif %}">Home</a>

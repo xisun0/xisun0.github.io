@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Xi Sun
+title: Home | Xi Sun
 description: Text, markets, and meaning.
 nav_key: home
 ---

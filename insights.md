@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Insights
+title: Insights | Xi Sun
 description: Notes on policy, markets, and practice.
 permalink: /insights/
 nav_key: insights
