@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research | Xi Sun
-description: Studying markets through text and data.
+description: Policy presence itself matters.
 permalink: /research/
 nav_key: research
 ---
@@ -14,8 +14,8 @@ nav_key: research
       <div class="paper-journal">Working Paper</div>
       <div class="paper-figure" aria-hidden="true">
       <img
-        src="/images/statecap-idf-en.png"
-        alt="Annual IDF figure for the StateCap project"
+        src="/images/gemini-working-paper.png"
+        alt="Illustration for the working paper From Rhetoric to Regime"
         class="paper-figure-image"
       >
       </div>

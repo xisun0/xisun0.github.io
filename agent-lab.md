@@ -8,17 +8,16 @@ nav_key: agent-lab
 
 This space is both practical and playful!
 
-I care deeply about what the arrival of agents may mean for the way people work: how they change the rhythm of thinking, the texture of production, and the everyday experience of getting things done. I do not come from a conventional technical background, but that is exactly why I have been trying these systems in practice, not just as a user, but also by building around them, with curiosity, seriousness, and a real sense of fun.
+I am trying to understand what the arrival of agents may mean for the way people work: how they change the rhythm of thinking, the texture of production, and the everyday experience of getting things done. I am not trained in computer science, but that is exactly why I have been trying these systems in practice, not just as a user, but also by building around them.
 
 ## Featured Project
 
 ### codex-speak 
 
-[`codex-speak`](https://github.com/xisun0/CotVis) is a terminal-side companion for Codex on macOS. 
+[`codex-speak`](https://github.com/xisun0/CotVis) is a lightweight, low-cost **voice companion** for **Codex CLI** on **macOS**, which
 
-- Makes terminal-native agent workflows easier to read and present.
-- Turns live Codex sessions into clean text and speech.
-- Stays local, lightweight, and fast to iterate on.
+- bridges terminal-based Codex sessions with voice output;
+- turns completed assistant replies into spoken playback or clean text output for hands-free use.
 
 
 Check out the demo video below to see how it works in practice:
@@ -29,4 +28,4 @@ Check out the demo video below to see how it works in practice:
 </video>
 
 
-Feel free to check out the project at [github](https://github.com/xisun0/CotVis)
+Feel free to check out more at my [GitHub page](https://github.com/xisun0)

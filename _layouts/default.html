@@ -65,6 +65,66 @@
         margin-top: 0;
       }
 
+      .home-news-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .home-news-item {
+        display: grid;
+        grid-template-columns: 10rem 1fr;
+        gap: 0.4rem;
+        align-items: start;
+        margin: 0.5rem 0;
+      }
+
+      .home-news-date {
+        text-decoration: underline;
+      }
+
+      .profile-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.25rem;
+        align-items: center;
+      }
+
+      .profile-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.38rem;
+      }
+
+      .profile-separator {
+        opacity: 0.4;
+      }
+
+      .profile-link-icon {
+        width: 0.95rem;
+        height: 0.95rem;
+        display: inline-block;
+        flex: 0 0 auto;
+      }
+
+      .profile-link-icon svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .profile-link--scholar .profile-link-icon {
+        color: #3b74d7;
+      }
+
+      .profile-link--ssrn .profile-link-icon {
+        color: #243b67;
+      }
+
+      .profile-link--cv .profile-link-icon {
+        color: #5a5f73;
+      }
+
       .insight-grid {
         display: grid;
         gap: 1.5rem;
@@ -149,7 +209,7 @@
         position: relative;
         z-index: 1;
         margin: 0.85rem 0;
-        height: 92px;
+        aspect-ratio: 1 / 1;
         border-radius: 14px;
         background: rgba(255, 255, 255, 0.55);
         border: 1px solid rgba(24, 50, 69, 0.10);
@@ -161,12 +221,8 @@
         z-index: 1;
         display: block;
         width: 100%;
-        height: auto;
-        margin-top: auto;
-        border-radius: 14px;
-        border: 1px solid rgba(24, 50, 69, 0.10);
-        background: rgba(255, 255, 255, 0.72);
-        box-shadow: 0 10px 24px rgba(18, 31, 43, 0.08);
+        height: 100%;
+        object-fit: cover;
       }
 
       .paper-figure::before {
@@ -291,12 +347,12 @@
         bottom: -20px;
       }
 
-      .insight-cover--times {
+      .insight-cover--market {
         background: linear-gradient(145deg, #0f6d61, #1f8b74 58%, #95d6b0);
       }
 
-      .insight-cover--observer {
-        background: linear-gradient(145deg, #1b355e, #2f588f 58%, #8eb8ff);
+      .insight-cover--risk {
+        background: linear-gradient(145deg, #2a3345, #43546f 58%, #9aa8bd);
       }
 
       .insight-cover--case {
@@ -321,7 +377,7 @@
         font-size: 2.1rem;
         line-height: 1.05;
         font-weight: 700;
-        max-width: 6ch;
+        max-width: 7ch;
       }
 
       .insight-date {
@@ -422,7 +478,7 @@
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
-    {% assign page_heading = page.title | default: site.title | default: site.github.repository_name | split: ' | ' | first %}
+    {% assign page_heading = page.display_title | default: page.title | default: site.title | default: site.github.repository_name | split: ' | ' | first %}
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page_heading }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>

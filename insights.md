@@ -10,8 +10,8 @@ nav_key: insights
 
 <div class="insight-grid">
   <article class="insight-card">
-    <div class="insight-cover insight-cover--times">
-      <div class="insight-kicker">Securities Times</div>
+    <div class="insight-cover insight-cover--market">
+      <div class="insight-kicker">Financial Market</div>
       <div class="insight-mark">Policy Signal</div>
       <div class="insight-date">2024-04-20</div>
     </div>
@@ -28,9 +28,9 @@ nav_key: insights
   </article>
 
   <article class="insight-card">
-    <div class="insight-cover insight-cover--times">
-      <div class="insight-kicker">Securities Times</div>
-      <div class="insight-mark">Registration Reform</div>
+    <div class="insight-cover insight-cover--market">
+      <div class="insight-kicker">Financial Market</div>
+      <div class="insight-mark">Reform</div>
       <div class="insight-date">2023-03-18</div>
     </div>
     <div class="insight-body">
@@ -46,9 +46,9 @@ nav_key: insights
   </article>
 
   <article class="insight-card">
-    <div class="insight-cover insight-cover--times">
-      <div class="insight-kicker">Securities Times</div>
-      <div class="insight-mark">US Listings</div>
+    <div class="insight-cover insight-cover--market">
+      <div class="insight-kicker">Financial Market</div>
+      <div class="insight-mark">US Listing</div>
       <div class="insight-date">2022-11-12</div>
     </div>
     <div class="insight-body">
@@ -64,8 +64,8 @@ nav_key: insights
   </article>
 
   <article class="insight-card">
-    <div class="insight-cover insight-cover--observer">
-      <div class="insight-kicker">Economic Observer</div>
+    <div class="insight-cover insight-cover--risk">
+      <div class="insight-kicker">Policy Risks</div>
       <div class="insight-mark">Geo Risk</div>
       <div class="insight-date">2022-05-21</div>
     </div>
@@ -82,8 +82,8 @@ nav_key: insights
   </article>
 
   <article class="insight-card">
-    <div class="insight-cover insight-cover--observer">
-      <div class="insight-kicker">Economic Observer</div>
+    <div class="insight-cover insight-cover--market">
+      <div class="insight-kicker">Financial Market</div>
       <div class="insight-mark">BSE</div>
       <div class="insight-date">2021-11-03</div>
     </div>
@@ -100,22 +100,22 @@ nav_key: insights
   </article>
 </div>
 
-## Teaching Cases
+## Case Study
 
 <div class="insight-grid">
   <article class="insight-card">
     <div class="insight-cover insight-cover--case">
-      <div class="insight-kicker">Teaching Cases</div>
-      <div class="insight-mark">Case Design</div>
-      <div class="insight-date">In Progress</div>
+      <div class="insight-kicker">Operational Management</div>
+      <div class="insight-mark">Data Driven</div>
+      <div class="insight-date">In progress</div>
     </div>
     <div class="insight-body">
-      <h3>Teaching Case Development</h3>
-      <div class="insight-meta">Selected applied classroom materials</div>
+      <h3>核桃编程：实验驱动的运营</h3>
+      <div class="insight-meta">梁超 · 孙溪 · 张驰</div>
       <ul class="insight-points">
-        <li>This section can feature classroom cases developed for teaching and discussion.</li>
-        <li>Each case can include a short synopsis, teaching objective, and context.</li>
-        <li>When available, add links to teaching notes, slides, or related materials.</li>
+        <li>Examines how hetao101 used experimentation to guide operational decisions and product growth.</li>
+        <li>Focuses on the interaction between testing, execution, and organizational learning in an education company.</li>
+        <li>Designed for classroom discussion on growth strategy, experimentation, and operational discipline.</li>
       </ul>
     </div>
   </article>
