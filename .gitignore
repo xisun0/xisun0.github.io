@@ -1,2 +1,6 @@
 CV/CV_XiSun_CN.synctex.gz
 CV/CV_XiSun_CN.log
+.DS_Store
+.bundle/
+.jekyll-cache/
+_site/

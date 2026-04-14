@@ -1,3 +1,13 @@
+## Local Preview
+
+Use the command below to preview the site locally:
+
+```bash
+PATH="/opt/homebrew/opt/ruby/bin:$PATH" bundle exec jekyll serve --host 127.0.0.1 --port 4000
+```
+
+Then open `http://127.0.0.1:4000`.
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/xisun0/xisun0.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
