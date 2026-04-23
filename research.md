@@ -12,18 +12,19 @@ nav_key: research
   <article class="paper-card">
     <div class="paper-panel">
       <div class="paper-journal">Working Paper</div>
-      <div class="paper-figure" aria-hidden="true">
+      <div class="paper-figure paper-figure--zoomable">
       <img
-        src="/images/gemini-working-paper.png"
+        src="/images/statecap_transition_story_image2.png"
         alt="Illustration for the working paper From Rhetoric to Regime"
         class="paper-figure-image"
+        data-zoomable="true"
       >
       </div>
       <div class="paper-year">2026</div>
     </div>
     <div class="paper-body">
       <h3>From Rhetoric to Regime: Policy Transitions in China</h3>
-      <div class="paper-authors">Sheng Huang, Xi Sun</div>
+      <div class="paper-authors">with <a href="https://www.ceibs.edu/huang-sheng">Sheng Huang</a></div>
       <ul class="paper-points">
         <li>Studies policy paradigm transitions in China through distributional shifts in official policy language.</li>
         <li>Uses large-scale text analysis to identify how policy narratives emerge, fade, and reconfigure over time.</li>
@@ -36,12 +37,19 @@ nav_key: research
   <article class="paper-card">
     <div class="paper-panel">
       <div class="paper-journal">Working Paper</div>
-      <div class="paper-figure" aria-hidden="true"></div>
+      <div class="paper-figure paper-figure--zoomable">
+      <img
+        src="/images/policymkt-ipo-draft.png"
+        alt="Illustration for the working paper Industrial Policy via the IPO Market"
+        class="paper-figure-image"
+        data-zoomable="true"
+      >
+      </div>
       <div class="paper-year">2026</div>
     </div>
     <div class="paper-body">
       <h3>Industrial Policy via the IPO Market</h3>
-      <div class="paper-authors">Zhiguo He, Yiming Qian, Xi Sun, Wang Renxuan</div>
+      <div class="paper-authors">with <a href="https://zhiguohe.net/">Zhiguo He</a>, <a href="https://www.business.uconn.edu/person/yiming-qian/">Yiming Qian</a>, and <a href="https://wangrenxuan.net/">Wang Renxuan</a></div>
       <ul class="paper-points">
         <li>Examines how access to public equity markets can function as an instrument of industrial policy in China.</li>
         <li>Shows how policy priorities derived from textual analysis help explain IPO activity, timing, and valuation.</li>
@@ -63,7 +71,7 @@ nav_key: research
     </div>
     <div class="paper-body">
       <h3>Information Acquisition, Uncertainty Reduction, and Pre-Announcement Premium in China</h3>
-      <div class="paper-authors">Rui Guo, <a href="https://jiadun.weebly.com/">Dun Jia</a>, Xi Sun</div>
+      <div class="paper-authors">with Rui Guo and <a href="https://jiadun.weebly.com/">Dun Jia</a></div>
       <ul class="paper-points">
         <li>Studies how information acquisition shapes pre-announcement premiums in the Chinese market.</li>
         <li>Connects uncertainty reduction to cross-sectional differences in market pricing before announcements.</li>
