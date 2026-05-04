@@ -50,12 +50,12 @@ nav_key: about
       </a>
     </div>
 
-    <p class="about-contact">Email: <a href="mailto:sxi@ceibs.edu">sxi@ceibs.edu</a></p>
+    <p class="about-contact">Email: <a href="mailto:sunxi@stanford.edu">sunxi@stanford.edu</a></p>
   </aside>
 </section>
 
 
-## Research Interests
+## Research Areas
 
 - Chinese financial markets
 - Computational social science

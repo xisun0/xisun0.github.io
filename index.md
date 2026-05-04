@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home | Xi Sun
-display_title: Xi Sun
+display_title: SUN, Xi
 description: Researcher · Decoder · Narrator
 nav_key: home
 ---
@@ -10,13 +10,13 @@ nav_key: home
   <div class="home-copy">
     <h2>Welcome</h2>
 
-    <p>Xi Sun is a Financial Economist working on policy communication and Chinese institutions, currently serving as a Research Affiliate at China Europe International Business School (CEIBS).</p>
+    <p>Xi Sun is a Financial Economist working on policy communication and Chinese institutions, currently serving as a Research Affiliate at <a href="https://www.ceibs.edu/">China Europe International Business School</a> and visiting <a href="https://www.stanford.edu/">Stanford University</a>.</p>
     
     <p>She is interested in <strong><em>how people understand policy</em></strong>, and <strong><em>how those shared interpretations shape markets, institutions, and the state</em></strong>.</p>
   </div>
 
   <aside class="home-photo">
-    <img src="/头像.jpg" alt="Portrait of Xi Sun">
+    <img src="images/home-portrait-2026.jpg" alt="Portrait of Xi Sun">
   </aside>
 </section>
 
