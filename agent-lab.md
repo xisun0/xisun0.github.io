@@ -10,7 +10,13 @@ This space is both practical and playful!
 
 I am trying to understand what the arrival of agents may mean for the way people work: how they change the rhythm of thinking, the texture of production, and the everyday experience of getting things done. I am not trained in computer science, but that is exactly why I have been trying these systems in practice, not just as a user, but also by building around them.
 
-## Featured Project
+## Featured Projects
+
+### SpotPaper
+
+[`SpotPaper`](https://github.com/xisun0/SpotPaper) is an agent skill that **turns empirical papers into dataviz-ready visual briefs**.
+
+It is built for moments when a paper has a strong empirical claim, but the mechanism or contrast is hard to communicate quickly. The skill reads the paper's argument, identifies the visualizable structure, and produces a visual brief centered on the paper's core mechanism and key result.
 
 ### codex-speak 
 
